@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block main %}
+    <!-- contact us begins here -->
+    <div class="container contact-us">
+        <div class="row ">
+            <div class="col">
+                <h2>Contact us</h2>
+                <form action="">
+                        <label for="fullname">Full name</label>
+                        <input type="text" name="fullname" id="fullname" placeholder="Enter your fullname" class="form-control" required>
+
+                        <label for="topic" class="mt-2">Subject</label>
+                        <input type="text" name="topic" id="topic" placeholder="Enter your topic" class="form-control" required>
+
+
+                        <label for="message" class="mt-2">message</label>
+                        <textarea name="message" id="message" cols="30" rows="5" class="form-control"></textarea>
+
+                        <input type="submit" class="btn btn-success mt-2" value="Send message">
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- contact us end here -->
+
+{% endblock %}

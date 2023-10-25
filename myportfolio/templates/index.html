@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block main %}
+    <!-- landing section starts here -->
+
+    <div class="container-fluid landingpage">
+        <div class="lefttext">
+            <h2>My Revision Portfolio</h2>
+            <h3>Welcome to my revision portfolio</h3>
+            <button class="btn btn-primary">Learn more</button>
+        </div>
+        <div class="rightimage">
+            <img src="{% static 'images/land.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- Landing section ends here -->
+{% endblock %}
